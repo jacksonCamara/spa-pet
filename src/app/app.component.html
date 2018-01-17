@@ -1,0 +1,9 @@
+<h3><a routerLink="/">Home</a> | <a routerLink="/protected">Protected</a> | <a routerLink="/call-api">Call Api</a> | <a routerLink="/call-api-user">Call Api Users</a></h3>
+<button (click)="logout($event)">Logout</button>
+<button (click)="login($event)">Login</button>
+
+<h1>
+  {{title}}
+</h1>
+
+<router-outlet></router-outlet>
